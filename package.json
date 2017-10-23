@@ -31,10 +31,12 @@
     }
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install client && npm run build  client",
+
   },
   "main": "index.js",
   "license": "MIT"
