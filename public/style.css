@@ -1,0 +1,36 @@
+body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.container {
+  width: auto;
+  max-width: 900px;
+  padding: 0 15px;
+}
+.container .footer-text {
+  margin: 20px 0;
+}
+
+.badge{
+  background: #e4aa48;
+}
+
+.link {
+border: none;
+background: none;
+margin: 0;
+padding: 3px;
+outline: none;
+color: white;
+}
+/*.modal {
+  padding: 10px ;
+  padding-bottom: 16px;
+  align-items: center;
+  background: black;
+  outline:none;
+  color:black;
+  text-align: center;
+}*/
